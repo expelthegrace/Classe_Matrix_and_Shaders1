@@ -41,14 +41,20 @@ bool  ModuleProgram::Init() {
 		dataFS[size] = 0;
 		fclose(file);
 	}
-	GLuint vsShader = glCreateShader(GL_VERTEX_SHADER);	GLuint fsShader = glCreateShader(GL_FRAGMENT_SHADER);
-	glShaderSource(vsShader,1,&dataVS,0);	glShaderSource(fsShader, 1, &dataFS, 0);
+	GLuint vsShader = glCreateShader(GL_VERTEX_SHADER);
+	GLuint fsShader = glCreateShader(GL_FRAGMENT_SHADER);
+
+	/*
+	glShaderSource(vsShader,1,&dataVS,0);
+	glShaderSource(fsShader, 1, &dataFS, 0);
+
 	glCompileShader(vsShader);
 	glCompileShader(fsShader);
 
 	GLint params;
 	glGetShaderiv(vsShader, GL_COMPILE_STATUS, &params);
 	//glGetShaderInfoLog(vsShader,;
+	*/
 
 	return true;
 }
