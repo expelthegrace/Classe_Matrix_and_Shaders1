@@ -25,6 +25,6 @@ public:
 
 
 
-private:
+public:
 	void* context;
 };
