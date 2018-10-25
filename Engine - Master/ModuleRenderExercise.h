@@ -14,8 +14,7 @@ public:
 	update_status   Update  ();
 	bool            CleanUp ();
 
-	math::float4x4 LookAt(math::float3 & target, math::float3 & eye, math::float3 & up);
-	math::float4x4 CalcProjection();
+	void UpdateMatrix();
 
 	math::float4x4 projectionMatrix;
 	math::float4x4 viewMatrix;

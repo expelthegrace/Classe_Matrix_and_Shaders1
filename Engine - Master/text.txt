@@ -1,0 +1,4 @@
+s'han de fer els shaders perque ellls calculin per la projection i view que els passare per uniforms
+
+frustrum ho te tot, si modifico frustrum modifico la pos de la camara i tot el que te
+per mourem en camera space multiplico el vector front del frustrum
