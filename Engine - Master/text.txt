@@ -2,3 +2,5 @@ s'han de fer els shaders perque ellls calculin per la projection i view que els 
 
 frustrum ho te tot, si modifico frustrum modifico la pos de la camara i tot el que te
 per mourem en camera space multiplico el vector front del frustrum
+
+modifico el frustrum, si faig un lookat en el futur li he de passar la pos del frustrum. el look at fica una part de l'escena davant de la meva camera
