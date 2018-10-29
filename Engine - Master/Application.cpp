@@ -5,9 +5,12 @@
 #include "ModuleTextures.h"
 #include "ModuleInput.h"
 #include "ModuleRenderExercise.h"
+<<<<<<< HEAD
 #include "ModuleProgram.h"
 #include "ModuleImgui.h"
 #include "ModuleCamera.h"
+=======
+>>>>>>> parent of 3ce6007... Shaders: compilen, falta el attach
 
 using namespace std;
 
@@ -22,8 +25,11 @@ Application::Application()
 	modules.push_back(textures = new ModuleTextures());
 
     modules.push_back(exercise = new ModuleRenderExercise());
+<<<<<<< HEAD
 	modules.push_back(program = new ModuleProgram());
 	
+=======
+>>>>>>> parent of 3ce6007... Shaders: compilen, falta el attach
 }
 
 Application::~Application()

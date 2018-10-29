@@ -147,7 +147,6 @@
     <ClInclude Include="ModuleCamera.h" />
     <ClInclude Include="ModuleImgui.h" />
     <ClInclude Include="ModuleInput.h" />
-    <ClInclude Include="ModuleProgram.h" />
     <ClInclude Include="ModuleRender.h" />
     <ClInclude Include="ModuleRenderExercise.h" />
     <ClInclude Include="ModuleTextures.h" />
@@ -197,17 +196,19 @@
     <ClCompile Include="ModuleCamera.cpp" />
     <ClCompile Include="ModuleImgui.cpp" />
     <ClCompile Include="ModuleInput.cpp" />
-    <ClCompile Include="ModuleProgram.cpp" />
     <ClCompile Include="ModuleRender.cpp" />
     <ClCompile Include="ModuleRenderExercise.cpp" />
     <ClCompile Include="ModuleTextures.cpp" />
     <ClCompile Include="ModuleWindow.cpp" />
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup>
     <None Include="Default.fs" />
     <None Include="Default.vs" />
     <None Include="Imgui\.travis.yml" />
   </ItemGroup>
+=======
+>>>>>>> parent of 3ce6007... Shaders: compilen, falta el attach
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
