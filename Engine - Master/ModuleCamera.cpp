@@ -1,4 +1,4 @@
-#include "ModuleCamera.h"{}
+#include "ModuleCamera.h"
 #include "Globals.h"
 #include "Application.h"
 #include "ModuleWindow.h"
